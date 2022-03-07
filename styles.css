@@ -14,7 +14,9 @@
 body{
     font-size: 1.3em;
     font-family: 'Fraunces', serif;
-    background: #FED766;
+    background-image: url('https://picsum.photos/1920/1080?random');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Contenedor principal de la aplicación */
