@@ -17,6 +17,7 @@ body{
     background-image: url('https://picsum.photos/1920/1080?random');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 /* Contenedor principal de la aplicación */
