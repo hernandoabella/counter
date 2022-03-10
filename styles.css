@@ -17,7 +17,10 @@ body{
     background-image: url('https://picsum.photos/1920/1080?random');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Contenedor principal de la aplicación */
@@ -28,10 +31,6 @@ body{
     width: 200px;
     border-radius: 25px;
     padding: 20px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
