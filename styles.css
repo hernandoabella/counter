@@ -14,9 +14,7 @@
 body{
     font-size: 1.3em;
     font-family: 'Fraunces', serif;
-    background-image: url('https://picsum.photos/1920/1080?random');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
     height: 95vh;
     display: flex;
     justify-content: center;
