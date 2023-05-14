@@ -1,97 +1,86 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap");
 
 /* Variables de color */
 
-:root{
-    --color__1: #2AB7CA;
-    --color__2: #FE4A49;
+:root {
+  --color__1: #2ab7ca;
+  --color__2: #fe4a49;
 }
 
-*{
-    box-sizing: border-box;
+body {
+  font-size: 1.3em;
+  font-family: "Fraunces", serif;
+  background: rgba(255, 145, 83, 1);
 }
 
-body{
-    font-size: 1.3em;
-    font-family: 'Fraunces', serif;
-    background: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
-    height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  width: 320px;
+  height: 250px;
+  padding: 20px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
 }
 
-/* Contenedor principal de la aplicación */
-
-#container{
-    background: #F4F4F8;
-    color: #999;
-    width: 200px;
-    border-radius: 25px;
-    padding: 20px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.flexStyle {
+  display: flex;
+  justify-content: space-around;
 }
 
-/* Hace que los botones esten lado a lado */
-
-.flexStyle{
-    display: flex;
-    justify-content: space-around;
-}
-
-#numero{
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 20px;
-    user-select: none;
-    font-weight: bold;
+#numero {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 60px;
+  user-select: none;
+  font-weight: bold;
 }
 
 /* Estilos de los botones */
 
-#boton1, #boton2{
-    padding: 20px;
-    margin: 10px;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: .4s;
-    color: #999;
-    background: #e0e0e0;
-    width: 50%;
+#boton1,
+#boton2 {
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.4s;
+  width: 60px;
 }
 
-#boton1:hover{
-    background: var(--color__1);
-    color: #fff;
+#boton1:hover {
+  background: var(--color__1);
+  color: #fff;
 }
 
-#boton2:hover{
-    background: var(--color__2);
-    color: #000;
+#boton2:hover {
+  background: var(--color__2);
+  color: #fff;
 }
 
 /* Animaciones */
 
-.animacion{
-    animation: animacion .1s;
+.animacion {
+  animation: animacion 0.1s;
 }
 
-.animacion2{
-    animation: animacion2 .1s;
+.animacion2 {
+  animation: animacion2 0.1s;
 }
 
-@keyframes animacion{
-    50%{
-        transform: scale(1.5);
-        
-    }
+@keyframes animacion {
+  50% {
+    transform: scale(1.5);
+  }
 }
 
-@keyframes animacion2{
-    50%{
-        transform: scale(1.5)
-        
-    }
+@keyframes animacion2 {
+  50% {
+    transform: scale(1.5);
+  }
 }
