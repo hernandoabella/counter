@@ -83,3 +83,10 @@ body {
     transform: scale(1.5);
   }
 }
+
+@media screen and (max-width: 768px) {
+  #container {
+    width: 90vw;
+    max-width: 90%;
+  }
+}
