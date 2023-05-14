@@ -11,6 +11,7 @@ body {
   font-size: 1.3em;
   font-family: "Fraunces", serif;
   background: rgba(255, 145, 83, 1);
+  overflow: hidden;
 }
 
 #container {
@@ -33,7 +34,7 @@ body {
 }
 
 #numero {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
   user-select: none;
   font-weight: bold;
