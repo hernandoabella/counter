@@ -15,7 +15,7 @@ Esta aplicación te permite contar números fácilmente.
 
 ## Captura de pantalla
 
-![Captura de pantalla](screenshot.png)
+![Captura de pantalla](/screenshot.png)
 
 Esta captura de pantalla muestra la interfaz de usuario de la aplicación Contador en acción. Los botones intuitivos permiten aumentar o disminuir el número, y se muestra el resultado actual en la pantalla.
 
