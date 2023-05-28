@@ -73,3 +73,11 @@ const testColor = () =>{
 
 // Restar automáticamente
 // setInterval(restar, 1000);
+
+const reiniciar = () => {
+   numero.innerText = '0'; // Reinicia la variable "numero" a 0
+   removeAnimationClass(); // Elimina las clases de animación
+   testColor(); // Actualiza el color del número
+   console.log(numero.innerHTML); // Imprime el número reiniciado en la consola
+   return numero.innerText; // Devuelve el contenido de la variable "numero" reiniciada
+}
