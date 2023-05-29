@@ -60,9 +60,9 @@ const testColor = () =>{
    if(numero.innerText === '0'){
       numero.style.color = '#000';
    }else if(numero.innerText < '0'){
-      numero.style.color = "var(--color__2)";
+      numero.style.color = "var(--color2)";
    }else{
-      numero.style.color = "var(--color__1)";
+      numero.style.color = "var(--color1)";
    }
 }
 

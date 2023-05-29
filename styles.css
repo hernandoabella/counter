@@ -3,8 +3,9 @@
 /* Variables de color */
 
 :root {
-  --color__1: #2ab7ca;
-  --color__2: #fe4a49;
+  --color1: #2ab7ca;
+  --color2: #fe4a49;
+  --color3: #9449fe;
 }
 
 body {
@@ -44,7 +45,8 @@ body {
 /* Estilos de los botones */
 
 #boton1,
-#boton2 {
+#boton2,
+#boton3 {
   padding: 20px;
   border-radius: 25px;
   cursor: pointer;
@@ -54,12 +56,17 @@ body {
 }
 
 #boton1:hover {
-  background: var(--color__1);
+  background: var(--color1);
   color: #fff;
 }
 
 #boton2:hover {
-  background: var(--color__2);
+  background: var(--color2);
+  color: #fff;
+}
+
+#boton3:hover {
+  background: var(--color3);
   color: #fff;
 }
 
