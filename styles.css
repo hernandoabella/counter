@@ -5,7 +5,7 @@
 :root {
   --color1: #2ab7ca;
   --color2: #fe4a49;
-  --color3: #9449fe;
+  --color3: #000;
 }
 
 body {
@@ -35,11 +35,11 @@ body {
 }
 
 #numero {
-  font-size: 4em;
+  font-size: 3em;
   text-align: center;
   user-select: none;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
@@ -48,11 +48,12 @@ body {
 #boton1,
 #boton2,
 #boton3 {
-  padding: 20px;
+  padding: 10px;
   border-radius: 25px;
   cursor: pointer;
   transition: 0.4s;
-  width: 60px;
+  border: none;
+  outline: none;
   margin-top: 10px;
 }
 
@@ -90,12 +91,5 @@ body {
 @keyframes animacion2 {
   50% {
     transform: scale(1.5);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #container {
-    width: 90vw;
-    max-width: 90%;
   }
 }
