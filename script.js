@@ -58,7 +58,7 @@ const removeAnimationClass = () => {
 
 const testColor = () =>{
    if(numero.innerText === '0'){
-      numero.style.color = '#000';
+      numero.style.color = '#333';
    }else if(numero.innerText < '0'){
       numero.style.color = "var(--color2)";
    }else{
