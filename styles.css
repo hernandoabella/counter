@@ -34,12 +34,12 @@ body {
 }
 
 #numero {
-  font-size: 3em;
+  font-size: 3.5em;
   text-align: center;
   user-select: none;
   font-weight: bold;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: var(--color3);
 }
 
@@ -54,7 +54,14 @@ body {
   transition: 0.4s;
   border: none;
   outline: none;
-  margin-top: 10px;
+  margin-top: 0px;
+}
+
+#boton1:active,
+#boton2:active,
+#boton3:active {
+  opacity: 0.9;
+  transform: translateY(-2px) scale(1.1);
 }
 
 #boton1 {
