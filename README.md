@@ -20,7 +20,7 @@ Esta aplicación te permite contar números fácilmente.
 Esta captura de pantalla muestra la interfaz de usuario de la aplicación Contador en acción. Los botones intuitivos permiten aumentar o disminuir el número, y se muestra el resultado actual en la pantalla.
 
 ## Demo en vivo
-Si deseas ver una demostración en vivo de esta aplicación, puedes acceder a ella [https://incredible-boba-57ba5d.netlify.app/](DEMO).
+Si deseas ver una demostración en vivo de esta aplicación, puedes acceder a ella aqui: [DEMO](https://incredible-boba-57ba5d.netlify.app/).
 
 ## Cómo empezar 🚀
 1. Clona el repositorio en tu máquina local.
