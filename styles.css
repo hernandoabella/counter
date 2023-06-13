@@ -5,10 +5,7 @@
 :root {
   --color1: #2ab7ca;
   --color2: #fe4a49;
-  --color3: #333;
-  --white-color: #fff;
-  --dark-bg-color: #1f1f1f; /* color de fondo en modo oscuro */
-  --dark-text-color: #f5f5f5; /* color de texto en modo oscuro */
+  --color3: #585757;
 }
 
 body {
@@ -51,7 +48,7 @@ body {
   font-weight: bold;
   color: var(--color3);
   position: relative;
-  top: 40px;
+  top: 30px;
 }
 
 /* Botones */
@@ -78,6 +75,7 @@ body {
 #boton1,
 #boton2 {
   background: #59c77a;
+  color: #585757;
 }
 
 #boton1:hover {

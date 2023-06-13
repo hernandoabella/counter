@@ -39,7 +39,7 @@ const testColor = () => {
    } else if (contador > 0) {
       numero.style.color = "var(--color1)"; // Color 'color1' para números positivos
    } else {
-      numero.style.color = '#333'; // Color '#333' para el número 0
+      numero.style.color = '#585757'; // Color '#333' para el número 0
    }
 }
 
