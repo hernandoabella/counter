@@ -40,6 +40,8 @@ body {
 .flexStyle {
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+  top: 65px;
 }
 
 #numero {
@@ -47,9 +49,9 @@ body {
   text-align: center;
   user-select: none;
   font-weight: bold;
-  margin-top: 50px;
-  margin-bottom: 30px;
   color: var(--color3);
+  position: relative;
+  top: 40px;
 }
 
 /* Botones */
@@ -63,7 +65,7 @@ body {
   transition: 0.4s;
   border: none;
   outline: none;
-  margin-top: 0px;
+  position: relative;
 }
 
 #boton1:active,
@@ -154,18 +156,5 @@ body {
   }
   100% {
     background-position: 0% 50%;
-  }
-}
-
-/* estilos para el modo oscuro */
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--dark-bg-color);
-    color: var(--dark-text-color);
-  }
-
-  .container {
-    background-color: #373737;
-    color: var(--dark-text-color);
   }
 }

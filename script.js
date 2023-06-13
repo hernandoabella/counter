@@ -1,72 +1,73 @@
 // Variables
-
-const numero = document.getElementById('numero');
-const boton1 = document.getElementById('boton1');
-const boton2 = document.getElementById('boton2');
+let contador = 0; // Inicializamos la variable contador en 0
+const numero = document.getElementById('numero'); // Obtenemos el elemento con el ID 'numero'
+const boton1 = document.getElementById('boton1'); // Obtenemos el elemento con el ID 'boton1'
+const boton2 = document.getElementById('boton2'); // Obtenemos el elemento con el ID 'boton2'
 
 /* ----------------------------------------------------------
-   1. Elimina las clases animacion y animacion2
-   2. Agrega la clase animación luego de 10 milisegundos de haber presionado el botón
-   3. Incremena la variable numero
-   4. Ejecuta la función testColor()
-   5. Imprime la consola
-   6. Devuelve el contenido de la variable numero
+   1. Elimina las clases 'animacion' y 'animacion2'
+   2. Agrega la clase 'animacion' después de 10 milisegundos de presionar el botón
+   3. Incrementa la variable contador
+   4. Ejecuta la función testColor() para actualizar el color del número
+   5. Imprime el valor actual del contador en la consola
+   6. Actualiza el contenido del elemento 'numero' con el valor de la variable contador
+   7. Devuelve el valor actual del contador
 ------------------------------------------------------------- */
-
 const sumar = () => {
-   removeAnimationClass();
-   setTimeout(() =>{
-      numero.classList.add('animacion');
+   removeAnimationClass(); // Elimina las clases 'animacion' y 'animacion2'
+   setTimeout(() => {
+      numero.classList.add('animacion'); // Agrega la clase 'animacion' después de 10 milisegundos
    }, 10);
-   numero.innerText++;
-   testColor();
-   console.log(numero.innerHTML);
-   return numero.innerText;
+   contador++; // Incrementa la variable contador
+   testColor(); // Actualiza el color del número
+   console.log(contador); // Imprime el valor actual del contador en la consola
+   numero.innerText = contador; // Actualiza el contenido del elemento 'numero' con el valor de la variable contador
+   return contador; // Devuelve el valor actual del contador
 }
 
 /* ----------------------------------------------------------
-   1. Elimina las clases animacion y animacion2
-   2. Agrega la clase animacion2 luego de 10 milisegundos de haber presionado el botón
-   3. Decrementa la variable numero
-   4. Ejecuta la función testColor()
-   5. Imprime la consola
-   6. Devuelve el contenido de la variable numero
+   1. Elimina las clases 'animacion' y 'animacion2'
+   2. Agrega la clase 'animacion2' después de 10 milisegundos de presionar el botón
+   3. Decrementa la variable contador
+   4. Ejecuta la función testColor() para actualizar el color del número
+   5. Imprime el valor actual del contador en la consola
+   6. Actualiza el contenido del elemento 'numero' con el valor de la variable contador
+   7. Devuelve el valor actual del contador
 ------------------------------------------------------------- */
-
 const restar = () => {
-   removeAnimationClass();
-   setTimeout(() =>{
-      numero.classList.add('animacion2');
+   removeAnimationClass(); // Elimina las clases 'animacion' y 'animacion2'
+   setTimeout(() => {
+      numero.classList.add('animacion2'); // Agrega la clase 'animacion2' después de 10 milisegundos
    }, 10);
-   numero.innerText--;
-   testColor();
-   console.log(numero.innerHTML);
-   return numero.innerText;
+   contador--; // Decrementa la variable contador
+   testColor(); // Actualiza el color del número
+   console.log(contador); // Imprime el valor actual del contador en la consola
+   numero.innerText = contador; // Actualiza el contenido del elemento 'numero' con el valor de la variable contador
+   return contador; // Devuelve el valor actual del contador
 }
 
-// Elimina las clases animacion y animacion2
-
+// Elimina las clases 'animacion' y 'animacion2'
 const removeAnimationClass = () => {
    numero.classList.remove('animacion2', 'animacion');
 }
 
 /* ----------------------------------------------------------
-   Comprueba si el color del número es mayor o menor que 0
-   Si es menor el número se coloca de color verde
-   Si es menor el número se coloca de color rojo
+   Comprueba el valor del contador y actualiza el color del número:
+   - Si el contador es menor que 0, el número se muestra en color 'color2'
+   - Si el contador es mayor que 0, el número se muestra en color 'color1'
+   - Si el contador es igual a 0, el número se muestra en color '#333'
 ------------------------------------------------------------- */
-
-const testColor = () =>{
-   if(numero.innerText === '0'){
-      numero.style.color = '#333';
-   }else if(numero.innerText < '0'){
-      numero.style.color = "var(--color2)";
-   }else{
-      numero.style.color = "var(--color1)";
+const testColor = () => {
+   if (contador < 0) {
+      numero.style.color = "var(--color2)"; // Color 'color2' para números negativos
+   } else if (contador > 0) {
+      numero.style.color = "var(--color1)"; // Color 'color1' para números positivos
+   } else {
+      numero.style.color = '#333'; // Color '#333' para el número 0
    }
 }
 
-// Activa el contador automático: 
+// Activa el contador automático:
 
 // Sumar automáticamente
 // setInterval(sumar, 1000);
@@ -74,10 +75,12 @@ const testColor = () =>{
 // Restar automáticamente
 // setInterval(restar, 1000);
 
+// Reinicia el contador y actualiza el color del número
 const reiniciar = () => {
-   numero.innerText = '0'; // Reinicia la variable "numero" a 0
+   contador = 0; // Reinicia la variable contador a 0
    removeAnimationClass(); // Elimina las clases de animación
    testColor(); // Actualiza el color del número
-   console.log(numero.innerHTML); // Imprime el número reiniciado en la consola
-   return numero.innerText; // Devuelve el contenido de la variable "numero" reiniciada
+   console.log(contador); // Imprime el valor reiniciado del contador en la consola
+   numero.innerText = contador; // Actualiza el contenido del elemento 'numero' con el valor de la variable contador
+   return contador; // Devuelve el valor reiniciado del contador
 }
