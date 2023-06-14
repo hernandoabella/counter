@@ -14,21 +14,30 @@ Esta aplicación te permite contar números fácilmente.
 - CSS
 - JavaScript
 
-## Captura de pantalla
+## Captura de pantalla 📷
 
 ![Captura de pantalla](/screenshot.png)
 
 Esta captura de pantalla muestra la interfaz de usuario de la aplicación Contador en acción. Los botones intuitivos permiten aumentar o disminuir el número, y se muestra el resultado actual en la pantalla.
 
-## Demo en vivo
+## Demo en vivo 🎉
 Si deseas ver una demostración en vivo de esta aplicación, puedes acceder a ella aqui: [DEMO](https://incredible-boba-57ba5d.netlify.app/).
+
+## Video de Demostración 🎥
+Si deseas ver una demostración en video de esta aplicación, puedes encontrarla en nuestro canal de YouTube. ¡No te lo pierdas!
+
+📺 [Video de Demostración en YouTube](https://www.youtube.com/tu-enlace-de-video)
+
+Asegúrate de ver el video para obtener una experiencia visual completa de cómo funciona el Contador 🧮😎✨. ¡Disfrútalo!
+
+Recuerda suscribirte a nuestro canal de YouTube para recibir más contenido relacionado con nuestras aplicaciones y actualizaciones futuras.
 
 ## Cómo empezar 🚀
 1. Clona el repositorio en tu máquina local.
 2. Abre el archivo `index.html` en tu navegador web.
 3. ¡Comienza a contar números fácilmente con el contador!
 
-## Contribuciones
+## Contribuciones 💡
 ¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
 1. Crea un fork de este repositorio.
 2. Crea una rama con un nombre descriptivo (`git checkout -b feature/nueva-caracteristica`).
