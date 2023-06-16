@@ -2,7 +2,7 @@
 
 Esta aplicación te permite contar números fácilmente.
 
-## Características del proyecto
+## Características del proyecto 📝
 - Fondo degradado con efecto de animación.
 - Muestra un contador para contar números de forma sencilla.
 - Permite incrementar o disminuir el número con botones intuitivos.
