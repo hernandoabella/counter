@@ -3,7 +3,6 @@
 Esta aplicación te permite contar números fácilmente.
 
 ## Características del proyecto 📝
-- Fondo degradado con efecto de animación.
 - Muestra un contador para contar números de forma sencilla.
 - Permite incrementar o disminuir el número con botones intuitivos.
 - Proporciona una opción para restablecer el contador a cero.
