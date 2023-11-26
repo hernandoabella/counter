@@ -1,59 +1,59 @@
-# Contador 🧮😎✨ 
+# Counter 🧮😎✨
 
-Esta aplicación te permite contar números fácilmente.
+This app allows you to count numbers easily.
 
-## Características del proyecto 📝
-- Muestra un contador para contar números de forma sencilla.
-- Permite incrementar o disminuir el número con botones intuitivos.
-- Proporciona una opción para restablecer el contador a cero.
-- Interfaz de usuario limpia y fácil de usar.
+## Project features 📝
+- Shows a counter to count numbers in a simple way.
+- Allows you to increase or decrease the number with intuitive buttons.
+- Provides an option to reset the counter to zero.
+- Clean and easy to use user interface.
 
-## Tecnologías utilizadas 🛠️
+## Technologies used 🛠️
 - HTML
 - CSS
 - JavaScript
 
-## Captura de pantalla 📷
+## Screenshot 📷
 
-![Captura de pantalla](/screenshot.png)
+![Screenshot](/screenshot.png)
 
-Esta captura de pantalla muestra la interfaz de usuario de la aplicación Contador en acción. Los botones intuitivos permiten aumentar o disminuir el número, y se muestra el resultado actual en la pantalla.
+This screenshot shows the Counter app UI in action. Intuitive buttons allow you to increase or decrease the number, and the current result is shown on the screen.
 
-## Demo en vivo 🎉
-Si deseas ver una demostración en vivo de esta aplicación, puedes acceder a ella aqui: [DEMO](https://incredible-boba-57ba5d.netlify.app/).
+## Live demo 🎉
+If you want to see a live demo of this application, you can access it here: [DEMO](https://incredible-boba-57ba5d.netlify.app/).
 
-## Video de Demostración 🎥
-Si deseas ver una demostración en video de esta aplicación, puedes encontrarla en nuestro canal de YouTube. ¡No te lo pierdas!
+## Demo Video 🎥
+If you want to see a video demonstration of this application, you can find it on our YouTube channel. Do not miss it!
 
-📺 [Video de Demostración en YouTube](https://www.youtube.com/watch?v=ANrN_43CF94&t)
+📺 [Demo Video on YouTube](https://www.youtube.com/watch?v=ANrN_43CF94&t)
 
-Asegúrate de ver el video para obtener una experiencia visual completa de cómo funciona el Contador 🧮😎✨. ¡Disfrútalo!
+Be sure to watch the video to get a full visual experience of how the Counter works 🧮😎✨. Enjoy it!
 
-Recuerda suscribirte a nuestro canal de YouTube para recibir más contenido relacionado con nuestras aplicaciones y actualizaciones futuras.
+Remember to subscribe to our YouTube channel to receive more content related to our applications and future updates.
 
-## Cómo empezar 🚀
-1. Clona el repositorio en tu máquina local.
-2. Abre el archivo `index.html` en tu navegador web.
-3. ¡Comienza a contar números fácilmente con el contador!
+## How to get started 🚀
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your web browser.
+3. Start counting numbers easily with the counter!
 
-## Contribuciones 💡
-¡Las contribuciones son bienvenidas! Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-1. Crea un fork de este repositorio.
-2. Crea una rama con un nombre descriptivo (`git checkout -b feature/nueva-caracteristica`).
-3. Realiza tus cambios y realiza los commits correspondientes.
-4. Envía tus cambios al repositorio remoto (`git push origin feature/nueva-caracteristica`).
-5. Abre una pull request para revisar tus cambios.
+## Contributions 💡
+Contributions are welcome! If you wish to contribute to this project, please follow the following steps:
+1. Create a fork of this repository.
+2. Create a branch with a descriptive name (`git checkout -b feature/new-feature`).
+3. Make your changes and make the corresponding commits.
+4. Push your changes to the remote repository (`git push origin feature/new-feature`).
+5. Open a pull request to review your changes.
 
-## Licencia 📄
-Este proyecto se encuentra bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.md.
+## License 📄
+This project is licensed under the MIT License. For details, see the LICENSE.md file.
 
-## Expresiones de gratitud 🎁
-- Agradece a otros desarrolladores por sus proyectos inspiradores.
-- Comenta sobre este proyecto a tus colegas o en redes sociales.
-- Invita a otros a contribuir al proyecto.
-- Si encuentras errores o mejoras, crea un issue en el repositorio.
-- Considera [comprarme un café](https://www.buymeacoffee.com/hernandoabella) para mostrar tu apoyo y agradecimiento.
+## Expressions of gratitude 🎁
+- Thank other developers for their inspiring projects.
+- Comment about this project to your colleagues or on social networks.
+- Invite others to contribute to the project.
+- If you find bugs or improvements, create an issue in the repository.
+- Consider [buying me a coffee](https://www.buymeacoffee.com/hernandoabella) to show your support and appreciation.
 
-¡Gracias por tu interés en este proyecto!
+Thank you for your interest in this project!
 
-Hecho con ❤️ por [Hernando Abella](https://github.com/hernandoabella) 😊
+Made with ❤️ by [Hernando Abella](https://github.com/hernandoabella) 😊
