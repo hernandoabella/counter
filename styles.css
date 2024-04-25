@@ -1,29 +1,21 @@
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 /* Variables */
 
 :root {
   --color1: #2ab7ca;
   --color2: #fe4a49;
-  --color3: #585757;
+  --color3: #4d4d4d;
+  --color4: #fdfdfd;
 }
 
 body {
-  font-size: 1.3em;
-  font-family: "Fraunces", serif;
+  font-family: "Inter", serif;
   overflow: hidden;
-  background: linear-gradient(90deg, #f6d365, #fda085);
-  background-size: 400% 400%;
-  -webkit-animation: animacionFondo 6s ease infinite;
-  -moz-animation: animacionFondo 6s ease infinite;
-  -o-animation: animacionFondo 6s ease infinite;
-  animation: animacionFondo 6s ease infinite;
 }
 
 #container {
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.75);
+  background: var(--color4);
   border-radius: 12px;
   border: 1px solid rgba(209, 213, 219, 0.3);
   position: absolute;
@@ -34,29 +26,25 @@ body {
   height: 250px;
 }
 
-.flexStyle {
+.buttonContainer {
   display: flex;
-  justify-content: space-evenly;
-  position: relative;
-  top: 65px;
+  gap: 10px;
 }
 
-#numero {
-  font-size: 3.5em;
+#number {
+  font-size: 3em;
   text-align: center;
   user-select: none;
   font-weight: bold;
   color: var(--color3);
-  position: relative;
-  top: 30px;
 }
 
-/* Botones */
+/* Buttons */
 
-#boton1,
-#boton2,
-#boton3 {
-  padding: 20px;
+#button1,
+#button2,
+#button3 {
+  padding: 10px;
   border-radius: 12px;
   cursor: pointer;
   transition: 0.4s;
@@ -65,94 +53,43 @@ body {
   position: relative;
 }
 
-#boton1:active,
-#boton2:active,
-#boton3:active {
+#button1:active,
+#button2:active,
+#button3:active {
   opacity: 0.9;
   transform: translateY(-2px) scale(1.1);
 }
 
-#boton1,
-#boton2 {
+#button1,
+#button2 {
   background: #59c77a;
   color: #585757;
 }
 
-#boton1:hover {
+#button1:hover {
   background: var(--color1);
   color: #fff;
 }
 
-#boton2:hover {
+#button2:hover {
   background: var(--color2);
   color: #fff;
 }
 
-#boton3 {
+#button3 {
   color: #fff;
   background: var(--color3);
 }
 
-/* Animaciones */
+/* Animations */
 
-.animacion,
-.animacion2 {
-  animation: animacion 0.1s;
+.animation,
+.animation2 {
+  animation: animation 0.1s;
 }
 
-@keyframes animacion {
+@keyframes animation {
   50% {
     transform: scale(1.5);
-  }
-}
-
-@keyframes animacion2 {
-  50% {
-    transform: scale(1.5);
-  }
-}
-
-@-webkit-keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-moz-keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@-o-keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-@keyframes animacionFondo {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
   }
 }
