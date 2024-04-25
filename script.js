@@ -1,60 +1,54 @@
 // Variables
-let contador = 0; // Inicializamos la variable contador en 0
-const numero = document.getElementById('numero'); // Obtenemos el elemento con el ID 'numero'
-const boton1 = document.getElementById('boton1'); // Obtenemos el elemento con el ID 'boton1'
-const boton2 = document.getElementById('boton2'); // Obtenemos el elemento con el ID 'boton2'
+let counter = 0; // Initialize counter variable to 0
+const number = document.getElementById('number'); // Get element with ID 'number'
+const button1 = document.getElementById('button1'); // Get element with ID 'button1'
+const button2 = document.getElementById('button2'); // Get element with ID 'button2'
 
-const sumar = () => {
-   removeAnimationClass(); // Elimina las clases 'animacion' y 'animacion2'
+const add = () => {
+   removeAnimationClass(); // Remove 'animation' and 'animation2' classes
    setTimeout(() => {
-      numero.classList.add('animacion'); // Agrega la clase 'animacion' después de 10 milisegundos
+      number.classList.add('animation'); // Add 'animation' class after 10 milliseconds
    }, 10);
-   contador++; // Incrementa la variable contador
-   testColor(); // Actualiza el color del número
-   console.log(contador); // Imprime el valor actual del contador en la consola
-   numero.innerText = contador; // Actualiza el contenido del elemento 'numero' con el valor de la variable contador
-   return contador; // Devuelve el valor actual del contador
+   counter++; // Increment counter variable
+   testColor(); // Update number color
+   console.log(counter); // Print current counter value to console
+   number.innerText = counter; // Update 'number' element content with counter variable value
+   return counter; // Return current counter value
 }
 
-const restar = () => {
-   removeAnimationClass(); // Elimina las clases 'animacion' y 'animacion2'
+const subtract = () => {
+   removeAnimationClass(); // Remove 'animation' and 'animation2' classes
    setTimeout(() => {
-      numero.classList.add('animacion2'); // Agrega la clase 'animacion2' después de 10 milisegundos
+      number.classList.add('animation2'); // Add 'animation2' class after 10 milliseconds
    }, 10);
-   contador--; // Decrementa la variable contador
-   testColor(); // Actualiza el color del número
-   console.log(contador); // Imprime el valor actual del contador en la consola
-   numero.innerText = contador; // Actualiza el contenido del elemento 'numero' con el valor de la variable contador
-   return contador; // Devuelve el valor actual del contador
+   counter--; // Decrement counter variable
+   testColor(); // Update number color
+   console.log(counter); // Print current counter value to console
+   number.innerText = counter; // Update 'number' element content with counter variable value
+   return counter; // Return current counter value
 }
 
-// Elimina las clases 'animacion' y 'animacion2'
+// Remove 'animation' and 'animation2' classes
 const removeAnimationClass = () => {
-   numero.classList.remove('animacion2', 'animacion');
+   number.classList.remove('animation2', 'animation');
 }
 
 const testColor = () => {
-   if (contador < 0) {
-      numero.style.color = "var(--color2)"; // Color 'color2' para números negativos
-   } else if (contador > 0) {
-      numero.style.color = "var(--color1)"; // Color 'color1' para números positivos
+   if (counter < 0) {
+      number.style.color = "var(--color2)"; // Use 'color2' for negative numbers
+   } else if (counter > 0) {
+      number.style.color = "var(--color1)"; // Use 'color1' for positive numbers
    } else {
-      numero.style.color = '#585757'; // Color '#333' para el número 0
+      number.style.color = '#585757'; // Use '#585757' for number 0
    }
 }
 
-// Sumar automáticamente
-// setInterval(sumar, 1000);
-
-// Restar automáticamente
-// setInterval(restar, 1000);
-
-// Reinicia el contador y actualiza el color del número
-const reiniciar = () => {
-   contador = 0; // Reinicia la variable contador a 0
-   removeAnimationClass(); // Elimina las clases de animación
-   testColor(); // Actualiza el color del número
-   console.log(contador); // Imprime el valor reiniciado del contador en la consola
-   numero.innerText = contador; // Actualiza el contenido del elemento 'numero' con el valor de la variable contador
-   return contador; // Devuelve el valor reiniciado del contador
+// Reset counter to 0 and update number color
+const reset = () => {
+   counter = 0; // Reset counter variable to 0
+   removeAnimationClass(); // Remove animation classes
+   testColor(); // Update number color
+   console.log(counter); // Print reset counter value to console
+   number.innerText = counter; // Update 'number' element content with counter variable value
+   return counter; // Return reset counter value
 }
