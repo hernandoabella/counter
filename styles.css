@@ -11,19 +11,17 @@
 
 body {
   font-family: "Inter", serif;
-  overflow: hidden;
 }
 
 #container {
   background: var(--color4);
   border-radius: 12px;
-  border: 1px solid rgba(209, 213, 219, 0.3);
+  border: 1px solid rgba(208, 209, 211, 0.3);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 320px;
-  height: 250px;
+  padding: 10px;
 }
 
 .buttonContainer {
@@ -35,15 +33,15 @@ body {
   font-size: 3em;
   text-align: center;
   user-select: none;
-  font-weight: bold;
   color: var(--color3);
+  padding: 10px;
 }
 
 /* Buttons */
 
-#button1,
-#button2,
-#button3 {
+#subtractButton,
+#resetButton,
+#addButton {
   padding: 10px;
   border-radius: 12px;
   cursor: pointer;
@@ -53,30 +51,24 @@ body {
   position: relative;
 }
 
-#button1:active,
-#button2:active,
-#button3:active {
+#subtractButton:active,
+#resetButton:active,
+#addButton:active {
   opacity: 0.9;
   transform: translateY(-2px) scale(1.1);
 }
 
-#button1,
-#button2 {
-  background: #59c77a;
-  color: #585757;
-}
-
-#button1:hover {
+#subtractButton:hover {
   background: var(--color1);
   color: #fff;
 }
 
-#button2:hover {
+#resetButton:hover {
   background: var(--color2);
   color: #fff;
 }
 
-#button3 {
+#addButton {
   color: #fff;
   background: var(--color3);
 }
