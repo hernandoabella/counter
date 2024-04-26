@@ -60,7 +60,7 @@ body {
 }
 
 #subtractButton:hover {
-  background: var(--color1);
+  background: var(--color2);
   color: #fff;
 }
 
